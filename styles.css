@@ -1,0 +1,277 @@
+body
+{
+    margin: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: black;
+}
+body::-webkit-scrollbar
+{
+    display: none;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.nav-bar a
+{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Ubuntu','Sans-Serif';
+    color: white;
+    padding-right: 2%;
+    padding-left: 2%;
+    position: relative;
+    top: -45%;
+    padding-top: 5vh;
+    font-size: 1.4rem;
+    height: 8.5vh;
+    margin-top: 0;
+    left: 12%;
+    user-select: none;
+}
+.nav-bar img
+{
+    height: auto;
+    width: 13vw;
+    display: inline-block;
+    padding-left: 2.5%;
+    user-select: none;
+}
+.nav-bar
+{
+    background-color: black;
+    width: 100%;
+    height: 13.5vh;
+    user-select: none;
+}
+.nav-bar a:hover
+{
+    background-color: red;
+    cursor: pointer;
+    animation: 1s linear fadein;
+}
+@keyframes fadein
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.slide
+{
+    width: 100vw;
+    height: 86.5vh;
+    overflow: hidden;
+    position: relative;
+}
+.slide-image
+{
+    position: absolute;
+    height: 86.5vh;
+    width: 100vw;
+    animation: 2s slide-left;
+}
+@keyframes slide-left
+{
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+}
+.slide-info
+{
+
+    font-family: 'Ubuntu', 'sans-serif';
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.6;
+    display: inline-block;
+    height: 25vh;
+    width: 25vw;
+}
+.slide::-webkit-scrollbar
+{
+    display: none;
+}
+.slide-info p
+{
+    color: white;
+    font-size: 25px;
+}
+.slide-info ul
+{
+    text-align: left;
+    opacity: 1;
+    color: white;
+}
+.down-arrow
+{
+    position: absolute;
+    top: 75vh;
+    left: 48vw;
+    height: 4rem;
+    width: auto;
+    display: inline-block;
+    color: black;
+    user-select: none;
+}
+.section-2
+{
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+.info-bg
+{
+    width: 100vw;
+    height: auto;
+}
+.info-about-formula p
+{
+    font-family: 'Ubuntu','Sans-serif';
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.info-about-formula
+{
+    position: absolute;
+    top: 25%;
+    width: 100vw;
+    left: 0;
+    display: inline-block;
+    background-color: black;
+    opacity: 0.6;
+}
+.info-about-formula .info
+{
+    font-size: 2rem;
+}
+.globe
+{
+    padding-left: 40vw;
+    height: 4em;
+    width: auto;
+}
+.info-about-formula .no-of-countries
+{
+    position: absolute;
+    top: 82%;
+    left: 45vw;
+    font-size: 2rem;
+}
+.contact-us
+{
+    margin-top: -4px;
+    display: inline-block;
+    position: relative;
+}
+.contact-bg
+{
+    height: 100vh;
+    width: 100vw;
+}
+.contact-form p
+{
+    color: white;
+    position: absolute;
+    top: 5%;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', 'Sans-serif';
+}
+.contact-form
+{
+    padding-left: 3%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background-color: black;
+    display: inline-block;
+    height: 65vh;
+    width: 30vw;
+}
+.form
+{
+    font-family: 'Ubuntu', 'Sans-serif';
+    position: absolute;
+    top: 30%;
+    color: white;
+    padding-left: 7.5%;
+}
+.submit-btn
+{
+    background-color: red;
+    color: white;
+    font-family: 'Ubuntu','Sans-serif';
+    font-size: 1rem;
+    height: 3rem;
+    width: 5rem;
+    margin-left: 75%;
+    border-radius: 2rem;
+}
+#fname
+{
+    width: 80%;
+    height: 20px;
+}
+#lname
+{
+    width: 80%;
+    height: 20px;
+}
+#email
+{
+    width: 80%;
+    height: 20px;
+}
+#query
+{
+    resize: vertical;
+}
+.solid-line
+{
+    margin-top: 0;
+    border-top: 5px solid red;
+}
+.intro-vid
+{
+    padding-left: 31vw;
+    padding-top: 4vh;
+}
+.footer
+{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    width: 100vw;
+    height: 8.5vh;
+    font-family: 'Ubuntu', 'Sans-serif';
+    position: relative;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.socials
+{
+    font-size: 1rem;
+}
+.fa-brands
+{
+    padding-left: 3px;
+    cursor: pointer;
+}
+.fa-brands:hover
+{
+    color: red;
+    animation: 0.5s linear fadein;
+}
