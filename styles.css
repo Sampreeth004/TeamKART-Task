@@ -145,7 +145,7 @@ body::-webkit-scrollbar
 .info-about-formula
 {
     position: absolute;
-    top: 25%;
+    top: 15%;
     width: 100vw;
     left: 0;
     display: inline-block;
